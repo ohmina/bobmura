@@ -1,5 +1,6 @@
 package com.bobmura.web.domain;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -20,14 +21,18 @@ public class BobTag implements Serializable {
     @Column(name = "content")
     private String content;
 
-    @Column(name = "user_id")
-    private Long userId;
+    @JsonBackReference
+    @ManyToOne(targetEntity = BobUser.class, fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id")
+    private BobUser bobUser;
 
-    @Column(name = "menu_id")
-    private Long menuId;
+    @JsonBackReference
+    @ManyToOne(targetEntity = BobMenu.class, fetch = FetchType.LAZY)
+    @JoinColumn(name = "menu_id")
+    private BobMenu bobMenu;
 
     @Column(name = "reg_date")
-    private LocalDateTime regdate;
+    private LocalDateTime regDate;
 
     @Column(name = "reg_id")
     private String regId;

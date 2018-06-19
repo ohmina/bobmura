@@ -1,5 +1,6 @@
 package com.bobmura.web.domain;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -18,20 +19,22 @@ public class BobTheme implements Serializable {
     @Column(name = "seq")
     private Long id;
 
-    @Column(name = "menu_id")
-    private Long menuId;
+    @JsonBackReference
+    @ManyToOne(targetEntity = BobMenu.class, fetch = FetchType.LAZY)
+    @JoinColumn(name = "menu_id")
+    private BobMenu bobMenu;
 
     @Column(name = "theme_type")
     private int themeType;
 
     @Column(name = "reg_date")
-    private LocalDateTime regdate;
+    private LocalDateTime regDate;
 
     @Column(name = "reg_id")
     private String regId;
 
     @Column(name = "upd_date")
-    private LocalDateTime upddate;
+    private LocalDateTime updDate;
 
     @Column(name = "upd_id")
     private String updId;
