@@ -1,11 +1,16 @@
 package com.bobmura.web.domain;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "bob_shop")
@@ -31,15 +36,20 @@ public class BobShop implements Serializable {
     private int dstFrmGfcM;
 
     @Column(name = "reg_date")
-    private LocalDateTime regdate;
+    private LocalDateTime regDate;
 
     @Column(name = "reg_id")
     private String regId;
 
     @Column(name = "upd_date")
-    private LocalDateTime upddate;
+    private LocalDateTime updDate;
 
     @Column(name = "upd_id")
     private String updId;
+
+    @JsonManagedReference
+    @OneToMany(mappedBy = "bobShop")
+    List<BobMenu> bobMenus = new ArrayList<>();
+
 
 }
