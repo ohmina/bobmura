@@ -106,7 +106,6 @@ body {
 .border-top { border-top: 1px solid #e5e5e5; }
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
 
-.icon {
-    width: 18px;
-    height: 18px;
+.card-text {
+    margin-bottom: 0;
 }

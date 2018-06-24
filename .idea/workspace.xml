@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="657553c9-a3a6-4807-ad8a-4dc65d3e63f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/web/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-favorite-24px.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-label-24px.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-monetization_on-24px.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-thumb_down-24px.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-thumb_up-24px.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/web/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/web/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/static/web/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/web/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/static/web/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/web/mybob.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/static/web/mybob.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/web/outline-face-24px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-face-24px.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-label-24px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-label-24px.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-monetization_on-24px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-monetization_on-24px.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-thumb_up-24px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-thumb_up-24px.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/login/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/menu/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/menu/menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/static/web/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/static/web/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/classes/static/web/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/static/web/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/classes/static/web/mybob.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/static/web/mybob.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/static/web/outline-face-24px.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/templates/login/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/classes/templates/menu/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/templates/menu/menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/classes/templates/mybob/mybob.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/templates/mybob/mybob.html" afterDir="false" />
     </list>
@@ -45,63 +40,12 @@
       <file leaf-file-name="menu.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/menu/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/search.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/login/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyBobController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/MyBobController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybob.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+            <state relative-caret-position="215">
+              <caret line="196" column="78" selection-start-line="196" selection-start-column="78" selection-end-line="196" selection-end-column="78" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="twotone-favorite-24px.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/twotone-favorite-24px.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="mybob.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/mybob.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="113" selection-start-line="113" selection-end-line="116" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -109,8 +53,58 @@
       <file leaf-file-name="menu.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/menu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+            <state relative-caret-position="320">
+              <caret line="108" column="10" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/login/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybob.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" column="78" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="78" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="twotone-monetization_on-24px.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/twotone-monetization_on-24px.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="twotone-favorite-24px.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/twotone-favorite-24px.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/login.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -130,6 +124,9 @@
       <find>devtools</find>
       <find>navbar-text</find>
       <find>#F2F1F6</find>
+      <find>navbar-right</find>
+      <find>stroke</find>
+      <find>card-text</find>
     </findStrings>
     <replaceStrings>
       <replace>white</replace>
@@ -157,13 +154,17 @@
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/menu.html" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/MenuController.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/MyBobController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/templates/login/login.html" />
         <option value="$PROJECT_DIR$/web/src/main/resources/static/web/outline-face-24px.svg" />
         <option value="$PROJECT_DIR$/web/src/main/resources/static/web/login.css" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/static/web/mybob.css" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/static/web/menu.css" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/static/web/mybob.css" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-monetization_on-24px.svg" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-label-24px.svg" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-thumb_up-24px.svg" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/static/web/common.css" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/templates/login/login.html" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/static/web/menu.css" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/menu/menu.html" />
       </list>
     </option>
@@ -176,7 +177,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="290" />
     <option name="y" value="20" />
     <option name="width" value="225" />
@@ -566,6 +567,7 @@
           <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#p#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -687,10 +689,13 @@
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/outline-favorite-24px.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/twotone-favorite-24px.svg">
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/octoface.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/twotone-label-24px.svg">
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/user.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/twotone-favorite-24px.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/login.css">
@@ -700,42 +705,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/mybob.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="113" selection-start-line="113" selection-end-line="116" selection-end-column="1" />
+        <state relative-caret-position="108">
+          <caret line="95" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/octoface.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/user.svg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -744,14 +719,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/twotone-monetization_on-24px.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/twotone-label-24px.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/twotone-thumb_up-24px.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/search.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="78" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="108" column="10" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/menu/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+        <state relative-caret-position="215">
+          <caret line="196" column="78" selection-start-line="196" selection-start-column="78" selection-end-line="196" selection-end-column="78" />
           <folding>
+            <element signature="n#style#0;n#p#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>

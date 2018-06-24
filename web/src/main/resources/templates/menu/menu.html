@@ -6,6 +6,7 @@
     <title>밥무라</title>
     <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.1.1/css/bootstrap.min.css}">
     <link rel="stylesheet" th:href="@{/webjars/jquery-ui/1.12.1/jquery-ui.css}">
+    <link rel="stylesheet" th:href="@{/web/common.css}">
     <link rel="stylesheet" th:href="@{/web/menu.css}">
     <script th:src="@{/webjars/jquery/3.3.1-1/jquery.min.js}"></script>
     <script th:src="@{/webjars/jquery-ui/1.12.1/jquery-ui.min.js}"></script>
@@ -15,7 +16,7 @@
     <!-- 상단바 -->
     <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
         <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="/menu">Bobmura</a>
-        @user 님 환영합니다.
+        <p class="navbar-text" style="margin-bottom:0">홍길동 님 환영합니다.</p>
         <ul class="navbar-nav px-3">
             <li class="nav-item text-nowrap">
                 <a class="nav-link" href="/mybob">My Bob</a>
@@ -30,9 +31,9 @@
                 <div class="sidebar-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" style="font-weight:bold" href="#">
-                                <img src="/web/search.svg" class="icon"/>
-                                검색
+                            <a class="nav-link" style="font-weight:bold; font-size:1rem" href="#">
+                                <img src="/web/search.svg"/>
+                                검색 조건
                             </a>
                         </li>
                     </ul>
@@ -188,10 +189,12 @@
                                 <img class="card-img-top" src="/web/bong.jpg">
                                 <div class="card-body">
                                     <h5 class="card-title">봉된장</h5>
-                                    <p class="card-text">된장찌개</p>
+                                    <p class="card-text">우렁 된장 7,500원</p>
+                                    <p class="card-text">바지락 된장 7,500원</p>
+                                    <p class="card-text">열무비빔면 7,000원</p>
                                 </div>
                                 <div class="card-footer text-right">
-                                    <small class="text-muted">#태그1 #태그2 #태그3</small>
+                                    <small class="text-muted">#한식 #깔끔함 #된장찌개맛집</small>
                                 </div>
                             </div>
                         </div>
