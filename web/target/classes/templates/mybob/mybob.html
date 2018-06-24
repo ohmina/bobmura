@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>MyBob</title>
+        <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.1.1/css/bootstrap.min.css}">
+        <link rel="stylesheet" th:href="@{/web/mybob.css}">
+        <script th:src="@{/webjars/jquery/3.3.1-1/jquery.min.js}"></script>
+        <script th:src="@{/webjars/bootstrap/4.1.1/js/bootstrap.min.js}"></script>
+    </head>
+    <body>
+        <!-- 상단바 -->
+        <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="menu">Bobmura</a>
+            <p class="navbar-text" style="margin-right:15px;">@user 님 환영합니다.</p>
+        </nav>
+        <!-- 상단바 -->
+        <h1>@user 님의 기록</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">
+                        홍길동님의 MyBob
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>평균♡</td>
+                    <td></td>
+                    <td>@mdo 개</td>
+                </tr>
+                <tr>
+                    <td>평균#</td>
+                    <td></td>
+                    <td>@fat 개</td>
+                </tr>
+                <tr>
+                    <td>평균￦</td>
+                    <td></td>
+                    <td>@won 원</td>
+                </tr>
+                <tr>
+                    <td>선호식단 TOP3</td>
+                    <td colspan="2">
+                        1. 한식 2. 중식 3. 분식
+                    </td>
+                </tr>
+                <tr>
+                    <td>선호가게 TOP3</td>
+                    <td colspan="2"> 1. 봉된장 2. 부대찌개 3. 중국집 </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

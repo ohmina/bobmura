@@ -9,11 +9,11 @@ import java.util.List;
 
 public interface BobSpoonRepository extends JpaRepository<BobSpoon, Long> {
 
-    @Query("insert BobSpoon values ")
-    void addSpoon(@Param("userId") Long userId, @Param("menuId") Long menuId);
+//    @Query("insert BobSpoon values ")
+//    void addSpoon(@Param("userId") Long userId, @Param("menuId") Long menuId);
 
-    @Query("select m from BobSpoon m")
-    Long countSpoon(@Param("menuId") Long menuId);
+//    @Query("select m from BobSpoon m")
+//    Long countSpoon(@Param("menuId") Long menuId);
 
 
 }

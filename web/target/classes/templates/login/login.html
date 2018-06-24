@@ -4,11 +4,12 @@
     <head>
     <meta charset="UTF-8">
         <title>밥무라-로그인</title>
-        <link rel="stylesheet" href="/webjars/bootstrap/4.1.1/dist/css/bootstrap.min.css">
-        <script src="/webjars/jquery/3.3.1-1/dist/jquery.min.js"></script>
-        <script src="/webjars/bootstrap/4.1.1/dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.1.1/css/bootstrap.min.css}">
+        <link rel="stylesheet" th:href="@{/web/login.css}">
+        <script th:src="@{/webjars/jquery/3.3.1-1/jquery.min.js}"></script>
+        <script th:src="@{/webjars/bootstrap/4.1.1/js/bootstrap.min.js}"></script>
     </head>
-    <body class="text-center">
+    <body class="text-center" th:style="|background-image:url('@{/web/rice.jpg}'); background-position:center;|">
         <form class="form-signin">
             <h1 class="h3 mb-3 font-weight-normal">BOBMURA</h1>
             <label for="inputEmail" class="sr-only">Email address</label>

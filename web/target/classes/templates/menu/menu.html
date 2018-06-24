@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>밥무라</title>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.1.1/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/web/menu.css}">
+    <script th:src="@{/webjars/jquery/3.3.1-1/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/4.1.1/js/bootstrap.min.js}"></script>
+</head>
+<body>
+    <!-- 상단바 -->
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="/menu">Bobmura</a>
+        @user 님 환영합니다.
+        <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+                <a class="nav-link" href="/mybob">My Bob</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- 상단바 -->
+    <!-- 본문 -->
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                                Dashboard <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <main role="main" class="col-md-10 ml-sm-auto col-lg-10 px-4">
+                <div class="container pt-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="/web/bong.jpg">
+                                <div class="card-body">
+                                    <p class="card-text">상호: </p>
+                                    <p class="card-text">메뉴: </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <small class="text-muted">#태그1 #태그2 #태그3</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <!-- 본문 -->
+
+</body>
+</html>
