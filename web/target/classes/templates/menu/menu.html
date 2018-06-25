@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>밥무라</title>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.1.1/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/webjars/jquery-ui/1.12.1/jquery-ui.css}">
+    <link rel="stylesheet" th:href="@{/web/common.css}">
+    <link rel="stylesheet" th:href="@{/web/menu.css}">
+    <script th:src="@{/webjars/jquery/3.3.1-1/jquery.min.js}"></script>
+    <script th:src="@{/webjars/jquery-ui/1.12.1/jquery-ui.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/4.1.1/js/bootstrap.min.js}"></script>
+</head>
+<body>
+    <!-- 상단바 -->
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="/menu">Bobmura</a>
+        <p class="navbar-text" style="margin-bottom:0">홍길동 님 환영합니다.</p>
+        <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+                <a class="nav-link" href="/mybob">My Bob</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- 상단바 -->
+    <!-- 본문 -->
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" style="font-weight:bold; font-size:1rem" href="#">
+                                <img src="/web/search.svg"/>
+                                검색 조건
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        가격대
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <div id="slider-range"></div>
+                                        </div>
+                                        <div class="form-group form-inline form-row">
+                                            <div class="col-md-5">
+                                                <input type="text" class="form-control form-control-sm col-md-8 mx-sm-1">원
+                                            </div>
+                                            <div class="col-md-2 text-right">
+                                                <span>~</span>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <input type="text" class="form-control form-control-sm col-md-8 mx-sm-1">원
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionExample2">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        거리
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample2">
+                                <div class="card-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <div id="slider-range2"></div>
+                                        </div>
+                                        <div class="form-group form-inline form-row">
+                                            <div class="col-md-5">
+                                                <input type="text" class="form-control form-control-sm col-md-8 mx-sm-1">m
+                                            </div>
+                                            <div class="col-md-2 text-right">
+                                                <span>~</span>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <input type="text" class="form-control form-control-sm col-md-8 mx-sm-1">m
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionExample3">
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        테마
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample3">
+                                <div class="card-body">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        한식
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                    <label class="form-check-label" for="defaultCheck2">
+                                                        중식
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                                    <label class="form-check-label" for="defaultCheck3">
+                                                        일식
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                                                    <label class="form-check-label" for="defaultCheck4">
+                                                        양식
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionExample4">
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        태그 검색
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample4">
+                                <div class="card-body">
+                                    <div class="pb-3">
+                                        <span>검색태그: </span>
+                                        <span class="border border-dark rounded mx-sm-1">#가성비</span>
+                                        <span class="border border-dark rounded mx-sm-1">#회식</span>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control form-control-sm" placeholder="태그를 입력하세요." aria-label="태그를 입력하세요." aria-describedby="basic-addon">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button">ADD</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <main role="main" class="col-md-10 ml-sm-auto col-lg-10 px-4">
+                <div class="container pt-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="/web/bong.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">봉된장</h5>
+                                    <p class="card-text">우렁 된장 7,500원</p>
+                                    <p class="card-text">바지락 된장 7,500원</p>
+                                    <p class="card-text">열무비빔면 7,000원</p>
+                                </div>
+                                <div class="card-footer text-right">
+                                    <small class="text-muted">#한식 #깔끔함 #된장찌개맛집</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <!-- 본문 -->
+    <script>
+        $(function() {
+            $("#slider-range").slider({
+                range: true,
+                min: 0,
+                max: 500,
+                values: [75, 300],
+                slide: function(event, ui) {
+                    console.log(ui.values[0] + " - " + ui.values[1]);
+                }
+            });
+            $("#slider-range2").slider({
+                range: true,
+                min: 0,
+                max: 500,
+                values: [75, 300],
+                slide: function(event, ui) {
+                    console.log(ui.values[0] + " - " + ui.values[1]);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

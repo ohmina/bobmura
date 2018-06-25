@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>밥무라-마이밥</title>
+        <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.1.1/css/bootstrap.min.css}">
+        <link rel="stylesheet" th:href="@{/web/common.css}">
+        <link rel="stylesheet" th:href="@{/web/mybob.css}">
+        <script th:src="@{/webjars/jquery/3.3.1-1/jquery.min.js}"></script>
+        <script th:src="@{/webjars/bootstrap/4.1.1/js/bootstrap.min.js}"></script>
+    </head>
+    <body>
+        <!-- 상단바 -->
+        <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="menu">Bobmura</a>
+            <p class="navbar-text" style="margin-right:15px;">홍길동 님 환영합니다.</p>
+        </nav>
+        <!-- 상단바 -->
+        <h3 style="margin-top:60px;margin-left:10px">홍길동님의 MyBob</h3>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td width="150px">총 <p class="like"></p></td>
+                    <td><p class="like"></p><p class="like"></p><p class="like"></p><p class="like"></p><p class="like"></p><p class="like"></p></td>
+                    <td>62 개</td>
+                </tr>
+                <tr>
+                    <td>총 <p class="label"></p></td>
+                    <td><p class="label"></p><p class="label"></p><p class="label"></p><p class="label"></p><p class="label"></p></td>
+                    <td>54 개</td>
+                </tr>
+                <tr>
+                    <td>평균 <p class="money"></p></td>
+                    <td><p class="money"></p><p class="money"></p><p class="money"></p><p class="money"></p><p class="money"></p><p class="money"></p></td>
+                    <td>6,500 원</td>
+                </tr>
+                <tr>
+                    <td>선호식단 TOP3</td>
+                    <td colspan="2">
+                        1. 한식 2. 중식 3. 분식
+                    </td>
+                </tr>
+                <tr>
+                    <td>선호가게 TOP3</td>
+                    <td colspan="2"> 1. 봉된장 2. 부대찌개 3. 중국집 </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
