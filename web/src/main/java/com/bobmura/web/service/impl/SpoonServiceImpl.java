@@ -11,6 +11,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Service
 public class SpoonServiceImpl implements SpoonService {
@@ -28,6 +30,16 @@ public class SpoonServiceImpl implements SpoonService {
     public Long CountByUserId(Long userId) {
         Long count = spoonRepository.CountByUserId(userId);
         return count;
+    }
+
+    @Override
+    public List<BobSpoon> GetByUserId(Long userId) {
+
+        List<BobSpoon> spoons = new ArrayList<>();
+
+        spoons = spoonRepository.GetByUserId(userId);
+
+        return spoons;
     }
 
     @Override

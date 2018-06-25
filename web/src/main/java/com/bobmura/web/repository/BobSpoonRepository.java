@@ -20,4 +20,7 @@ public interface BobSpoonRepository extends JpaRepository<BobSpoon, Long> {
 
     @Query("SELECT COUNT(b) FROM BobSpoon b WHERE b.bobUser.userId = :userId")
     Long CountByUserId(@Param("userId") Long userId);
+
+    @Query("SELECT b FROM BobSpoon b WHERE b.bobUser.userId = :userId")
+    List<BobSpoon> GetByUserId(@Param("userId") Long userId);
 }
