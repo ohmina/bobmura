@@ -16,4 +16,8 @@ public interface BobTagRepository extends JpaRepository<BobTag, Long> {
 
     @Query("SELECT b from BobTag b where b.bobMenu.menuId = :menuId")
     List<BobTag> GetByMenuId(@Param("menuId")Long menuId);
+
+    @Query("SELECT count(b) from BobTag b where b.bobUser.userEmail = :userEmail")
+    Long CountByUserEmail(@Param("userEmail")String userEmail);
+
 }

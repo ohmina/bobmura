@@ -14,10 +14,10 @@
         <!-- 상단바 -->
         <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
             <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="menu">Bobmura</a>
-            <p class="navbar-text" style="margin-right:15px;">홍길동 님 환영합니다.</p>
+            <p class="navbar-text" style="margin-right:15px;" th:text="|${username}님 환영합니다.|">홍길동 님 환영합니다.</p>
         </nav>
         <!-- 상단바 -->
-        <h3 style="margin-top:60px;margin-left:10px">홍길동님의 MyBob</h3>
+        <h3 style="margin-top:60px;margin-left:10px" th:text="|${username}님의 MyBob|">홍길동님의 MyBob</h3>
         <table class="table">
             <tbody>
                 <tr>

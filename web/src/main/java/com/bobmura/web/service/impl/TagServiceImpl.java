@@ -15,4 +15,9 @@ public class TagServiceImpl implements TagService {
     public Long CountByUserId(Long userId) {
         return tagRepository.CountByUserId(userId);
     }
+
+    @Override
+    public Long CountByUserEmail(String userEmail) {
+        return tagRepository.CountByUserEmail(userEmail);
+    }
 }

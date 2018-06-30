@@ -43,6 +43,16 @@ public class SpoonServiceImpl implements SpoonService {
     }
 
     @Override
+    public List<BobSpoon> GetByUserEmail(String userEmail) {
+
+        List<BobSpoon> spoons = new ArrayList<>();
+
+        spoons = spoonRepository.GetByEmail(userEmail);
+
+        return spoons;
+    }
+
+    @Override
     @Transactional
     public void AddSpoon(Long menuId, Long userId) {
 
