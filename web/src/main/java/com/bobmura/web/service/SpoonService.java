@@ -1,10 +1,19 @@
 package com.bobmura.web.service;
 
+import com.bobmura.web.domain.BobSpoon;
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
+@Service
 public interface SpoonService {
 
-    void AddSpoon(Long userId, Long menuId);
+    void AddSpoon(Long menuId, Long userId);
 
-    Long CountSpoon(Long menuId);
+    Long CountByMenuId(Long menuId);
+
+    Long CountByUserId(Long userId);
+
+    List<BobSpoon> GetByUserId(Long userId);
 }

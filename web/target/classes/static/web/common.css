@@ -1,0 +1,26 @@
+.money{
+    background-image:url('/web/twotone-monetization_on-24px.svg');
+    width: 18px;
+    height: 18px;
+    margin-bottom: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.label{
+    background-image:url('/web/twotone-label-24px.svg');
+    width: 18px;
+    height: 18px;
+    margin-bottom: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.like{
+    background-image:url('/web/twotone-thumb_up-24px.svg');
+    width: 18px;
+    height: 18px;
+    margin-bottom: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}

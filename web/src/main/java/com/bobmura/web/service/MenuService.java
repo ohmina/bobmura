@@ -11,4 +11,6 @@ public interface MenuService {
     BobMenu getMenu(Long id);
 
     List<BobMenu> getMenus();
+
+    Long getPriceAverage(List<BobMenu> bobMenus);
 }
