@@ -28,4 +28,16 @@ public class MenuServiceImpl implements MenuService {
 
         return menuRepository.getMenus();
     }
+
+    public Long getPriceAverage(List<BobMenu> bobMenus){
+        Long result = new Long(0);
+        Long sum = new Long(0);
+        for(int i=0; i<bobMenus.size(); i++)
+            sum += bobMenus.get(i).getMenuPrice();
+
+        if(bobMenus != null && bobMenus.size() > 0 && sum > 0)
+            result = sum / bobMenus.size();
+
+        return result;
+    }
 }

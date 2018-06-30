@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="657553c9-a3a6-4807-ad8a-4dc65d3e63f0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/security/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/MyBobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/MyBobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobSpoonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobSpoonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobTagRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobTagRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/SpoonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/SpoonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/TagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/TagService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/impl/SpoonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/impl/SpoonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/impl/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/impl/TagServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/static/web/twotone-face-24px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/static/web/twotone-face-24px.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/static/web/twotone-favorite-24px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/static/web/twotone-favorite-24px.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/static/web/twotone-label-24px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/static/web/twotone-label-24px.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/static/web/twotone-monetization_on-24px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/static/web/twotone-monetization_on-24px.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/static/web/twotone-thumb_down-24px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/static/web/twotone-thumb_down-24px.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/static/web/twotone-thumb_up-24px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/static/web/twotone-thumb_up-24px.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/bobmura/web/repository/BobUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/bobmura/web/repository/BobUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/templates/login/login.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,51 +32,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pom.xml">
+      <file leaf-file-name="data.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/data.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1184">
-              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+            <state relative-caret-position="144">
+              <caret line="111" column="104" selection-start-line="111" selection-start-column="104" selection-end-line="111" selection-end-column="104" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/menu/menu.html">
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/security/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="190" column="67" lean-forward="true" selection-start-line="190" selection-start-column="67" selection-end-line="190" selection-end-column="67" />
+            <state relative-caret-position="328">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
-                <element signature="n#style#0;n#p#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/menu.css">
+      <file leaf-file-name="MyBobController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/MyBobController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1728">
-              <caret line="108" column="10" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="10" />
+            <state relative-caret-position="69">
+              <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/login/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybob.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mybob.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="78" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="78" />
+            <state relative-caret-position="240">
+              <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -74,20 +78,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/common.css">
+      <file leaf-file-name="TagService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/TagService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="176">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/login.css">
+      <file leaf-file-name="TagServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/impl/TagServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="240">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BobTagRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobTagRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="19" column="82" lean-forward="true" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpoonService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/SpoonService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpoonServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/impl/SpoonServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BobSpoonRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobSpoonRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -98,6 +148,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,6 +161,7 @@
       <find>navbar-right</find>
       <find>stroke</find>
       <find>card-text</find>
+      <find>post</find>
     </findStrings>
     <replaceStrings>
       <replace>white</replace>
@@ -129,26 +181,33 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/impl/SpoonServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/SpoonService.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobSpoonRepository.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/mybob.html" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/menu.html" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/MenuController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/MyBobController.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/static/web/outline-face-24px.svg" />
         <option value="$PROJECT_DIR$/web/src/main/resources/static/web/login.css" />
-        <option value="$PROJECT_DIR$/web/pom.xml" />
         <option value="$PROJECT_DIR$/web/src/main/resources/static/web/mybob.css" />
         <option value="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-monetization_on-24px.svg" />
         <option value="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-label-24px.svg" />
         <option value="$PROJECT_DIR$/web/src/main/resources/static/web/twotone-thumb_up-24px.svg" />
         <option value="$PROJECT_DIR$/web/src/main/resources/static/web/common.css" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html" />
         <option value="$PROJECT_DIR$/web/src/main/resources/static/web/menu.css" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/menu/menu.html" />
+        <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobUserRepository.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/security/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/login/login.html" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/security/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/impl/SpoonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/SpoonService.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/TagService.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/impl/TagServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobTagRepository.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobSpoonRepository.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/MyBobController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html" />
       </list>
     </option>
   </component>
@@ -161,10 +220,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="290" />
-    <option name="y" value="20" />
-    <option name="width" value="225" />
-    <option name="height" value="145" />
+    <option name="x" value="1825" />
+    <option name="y" value="145" />
+    <option name="width" value="1380" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -175,7 +234,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -244,6 +302,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -262,14 +329,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
@@ -310,10 +369,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="data&#9;FILE&#9;file://C:/Java_Class/bobmura/web/src/main/resources/data.sql&#10;pom&#9;FILE&#9;file://C:/Java_Class/bobmura/web/pom.xml" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ebaykorea/jpaboard" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
@@ -469,7 +530,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -480,11 +542,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287234" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827586" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17916666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17891997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -502,7 +564,33 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1184">
@@ -645,34 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/impl/SpoonServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobSpoonRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/SpoonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/MenuApiController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -687,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/MyBobController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/mybob.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -701,21 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
-          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="78" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="78" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="816">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
@@ -728,15 +770,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/menu.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
+        <state relative-caret-position="401">
           <caret line="108" column="10" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="42" column="21" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/menu/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="190" column="67" lean-forward="true" selection-start-line="190" selection-start-column="67" selection-end-line="190" selection-end-column="67" />
+        <state relative-caret-position="16">
+          <caret line="190" column="66" selection-start-line="190" selection-start-column="66" selection-end-line="190" selection-end-column="66" />
           <folding>
             <element signature="n#style#0;n#p#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -744,17 +793,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/web/login.css">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.5.RELEASE/spring-security-config-5.0.5.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/FormLoginConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="272">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.5.RELEASE/spring-security-config-5.0.5.RELEASE.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="149" column="24" lean-forward="true" selection-start-line="149" selection-start-column="24" selection-end-line="149" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/domain/BobUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.5.RELEASE/spring-security-config-5.0.5.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.5.RELEASE/spring-security-config-5.0.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="313" column="16" selection-start-line="313" selection-start-column="8" selection-end-line="313" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/security/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.5.RELEASE/spring-security-web-5.0.5.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.5.RELEASE/spring-security-web-5.0.5.RELEASE.jar!/org/springframework/security/web/authentication/ForwardAuthenticationSuccessHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.5.RELEASE/spring-security-config-5.0.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/FormLoginConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="229" column="58" selection-start-line="229" selection-start-column="58" selection-end-line="229" selection-end-column="58" />
+          <folding>
+            <element signature="e#7708#7709#0" expanded="true" />
+            <element signature="e#7748#7749#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/login/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        <state relative-caret-position="224">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/security/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/TagService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/impl/TagServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobTagRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="19" column="82" lean-forward="true" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/repository/BobSpoonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/controller/MyBobController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/SpoonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bobmura/web/service/impl/SpoonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="111" column="104" selection-start-line="111" selection-start-column="104" selection-end-line="111" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/mybob/mybob.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
