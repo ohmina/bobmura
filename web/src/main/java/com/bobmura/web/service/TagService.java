@@ -9,4 +9,5 @@ public interface TagService {
 
     Long CountByUserId(Long userId);
 
+    Long CountByUserEmail(String userEmail);
 }

@@ -16,4 +16,6 @@ public interface SpoonService {
     Long CountByUserId(Long userId);
 
     List<BobSpoon> GetByUserId(Long userId);
+
+    List<BobSpoon> GetByUserEmail(String userEmail);
 }

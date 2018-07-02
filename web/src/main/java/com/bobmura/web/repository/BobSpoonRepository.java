@@ -23,4 +23,7 @@ public interface BobSpoonRepository extends JpaRepository<BobSpoon, Long> {
 
     @Query("SELECT b FROM BobSpoon b WHERE b.bobUser.userId = :userId")
     List<BobSpoon> GetByUserId(@Param("userId") Long userId);
+
+    @Query("SELECT b FROM BobSpoon b WHERE b.bobUser.userEmail = :userEmail")
+    List<BobSpoon> GetByEmail(@Param("userEmail") String userEmail);
 }

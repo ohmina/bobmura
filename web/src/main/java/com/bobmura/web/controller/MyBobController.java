@@ -36,21 +36,18 @@ public class MyBobController {
     ShopService shopService;
 
     @GetMapping
-    public String mybob( ModelMap modelMap) {
+    public String mybob(Principal principal, ModelMap modelMap) {
         //
-//        modelMap.addAttribute("username", principal.getName());
+        modelMap.addAttribute("username", principal.getName());
 
         List<BobMenu> menus = new ArrayList<>();
         List<BobTheme> themes = new ArrayList<>();
         List<BobShop> shops = new ArrayList<>();
 
-//        Long userId = Long.parseLong(principal.getName());
-        Long userId = new Long(1);
+		String userEmail = principal.getName();
 
         // get menu price
-
-
-        List<BobSpoon> spoons = spoonService.GetByUserId(userId);
+        List<BobSpoon> spoons = spoonService.GetByUserEmail(userEmail);
         for(int i = 0; i< spoons.size(); i++) {
             menus.add(spoons.get(i).getBobMenu());
             themes.addAll(spoons.get(i).getBobMenu().getBobThemes());
@@ -63,7 +60,7 @@ public class MyBobController {
         Long spoonCount = new Long(spoons.size());
 
         // get tag count
-        Long tagCount = tagService.CountByUserId(userId);
+        Long tagCount = tagService.CountByUserEmail(userEmail);
 
         // get top 3 theme
         List<String> topThemes = themeService.GetTopThemes(themes, 3);
