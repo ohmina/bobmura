@@ -6,6 +6,7 @@ import com.bobmura.web.service.ThemeService;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.convert.ConversionException;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -19,9 +20,10 @@ public class ThemeServiceImpl implements ThemeService {
     BobThemeRepository themeRepository;
 
     @Override
-    public List<Integer> GetTopThemes(List<BobTheme> themes, int topN) {
+    public List<String> GetTopThemes(List<BobTheme> themes, int topN) {
 
-        List<Integer> result = new ArrayList<>();
+        List<String> result = new ArrayList<>();
+        List<Integer> typeResult = new ArrayList<>();
         List<TypeCountEntity> typeCount = new ArrayList<>();
         themes.sort(Comparator.comparingInt(BobTheme::getThemeType));
 
@@ -40,12 +42,15 @@ public class ThemeServiceImpl implements ThemeService {
 
         if(topN <= typeCount.size()) {
             for(int j =0; j< topN; j++)
-                result.add(typeCount.get(j).getThemeType());
+                typeResult.add(typeCount.get(j).getThemeType());
         }
         else {
             for(int j =0; j< typeCount.size(); j++)
-                result.add(typeCount.get(j).getThemeType());
+                typeResult.add(typeCount.get(j).getThemeType());
         }
+
+        result = ConvertTypeToString(typeResult);
+
         return result;
     }
 
@@ -61,10 +66,31 @@ public class ThemeServiceImpl implements ThemeService {
         return result;
     }
 
+    private List<String> ConvertTypeToString(List<Integer> types) {
+
+        List<String> result = new ArrayList<>();
+
+        if(types == null || types.size() == 0) return result;
+        for(int i=0; i<types.size(); i++) {
+            result.add(ThemeTypeEnum.values()[types.get(i)].toString());
+        }
+
+        return result;
+    }
+
     @Getter
     @Setter
     private class TypeCountEntity{
         private int themeType;
         private int count;
     }
+
+    private enum ThemeTypeEnum{
+        기타,
+        한식,
+        양식,
+        중식,
+        일식
+    }
+
 }

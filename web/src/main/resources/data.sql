@@ -1,11 +1,11 @@
 insert into BOB_SHOP(shop_id, shop_name, shop_x, shop_y, dst_frm_gfc_m, reg_id, reg_date, upd_id, upd_date)
-values(null, 'ebayKo34F', 12.35, 15.55, 9, 'system', now(), 'system', now());
+values(null, '34층라운지', 12.35, 15.55, 9, 'system', now(), 'system', now());
 
 insert  into BOB_MENU(menu_id, menu_name, menu_price, shop_id, reg_id, reg_date, upd_id, upd_date)
-values (null, '카페라떼', 0, 1, 'system', now(), 'system', now());
+values (null, '카페라떼', 2000, 1, 'system', now(), 'system', now());
 
 insert  into BOB_MENU(menu_id, menu_name, menu_price, shop_id, reg_id, reg_date, upd_id, upd_date)
-values (null, '카푸치노', 0, 1, 'system', now(), 'system', now());
+values (null, '카푸치노', 3000, 1, 'system', now(), 'system', now());
 
 insert into BOB_THEME(seq, menu_id, theme_type, reg_id, reg_date, upd_id, upd_date)
 values (null, 1, 3, 'system', now(), 'system', now());

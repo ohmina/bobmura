@@ -8,6 +8,6 @@ import java.util.List;
 @Service
 public interface ThemeService {
 
-    List<Integer> GetTopThemes(List<BobTheme> themes, int topN);
+    List<String> GetTopThemes(List<BobTheme> themes, int topN);
 
 }
