@@ -1,10 +1,6 @@
 -- shop(가게명)
 insert into BOB_SHOP(shop_id, shop_name, shop_x, shop_y, dst_frm_gfc_m, reg_id, reg_date, upd_id, upd_date)
-<<<<<<< HEAD
-values(null, '34층라운지', 12.35, 15.55, 9, 'system', now(), 'system', now());
-=======
 values(null, '커피빈 스타타워점', 508097, 1111198, 0, 'system', now(), 'system', now());
->>>>>>> origin/master
 
 insert into BOB_SHOP(shop_id, shop_name, shop_x, shop_y, dst_frm_gfc_m, reg_id, reg_date, upd_id, upd_date)
 values(null, '봉된장', 507318, 1110607, 8, 'system', now(), 'system', now());
@@ -26,10 +22,10 @@ values(null, '루안', 508479, 1110982, 2, 'system', now(), 'system', now());
 
 -- menu(메뉴명)
 insert  into BOB_MENU(menu_id, menu_name, menu_price, shop_id, reg_id, reg_date, upd_id, upd_date)
-values (null, '카페라떼', 2000, 1, 'system', now(), 'system', now());
+values (null, '카페라떼', 4200, 1, 'system', now(), 'system', now());
 
 insert  into BOB_MENU(menu_id, menu_name, menu_price, shop_id, reg_id, reg_date, upd_id, upd_date)
-values (null, '카푸치노', 3000, 1, 'system', now(), 'system', now());
+values (null, '카푸치노', 4100, 1, 'system', now(), 'system', now());
 
 insert  into BOB_MENU(menu_id, menu_name, menu_price, shop_id, reg_id, reg_date, upd_id, upd_date)
 values (null, '우렁된장', 7500, 2, 'system', now(), 'system', now());
