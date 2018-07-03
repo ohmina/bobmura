@@ -44,8 +44,7 @@ public class MyBobController {
         List<BobTheme> themes = new ArrayList<>();
         List<BobShop> shops = new ArrayList<>();
 
-        String userEmail = principal.getName();
-
+		String userEmail = principal.getName();
 
         // get menu price
         List<BobSpoon> spoons = spoonService.GetByUserEmail(userEmail);
@@ -64,11 +63,18 @@ public class MyBobController {
         Long tagCount = tagService.CountByUserEmail(userEmail);
 
         // get top 3 theme
-        List<Integer> topThemes = themeService.GetTopThemes(themes, 3);
+        List<String> topThemes = themeService.GetTopThemes(themes, 3);
 
         // get top 3 shop
         List<String> topShops = shopService.GetTopShops(shops, 3);
 
-        return "/mybob/mybob";
+        modelMap.addAttribute("name", "userName + 님");
+        modelMap.addAttribute("spoonCount", spoonCount.toString() + "개");
+        modelMap.addAttribute("tagCount", tagCount.toString() + "개");
+        modelMap.addAttribute("averagePrice", averagePrice.toString() +"원");
+        modelMap.addAttribute("topThemes", topThemes.toString());
+        modelMap.addAttribute("topShops", topShops.toString());
+
+        return "mybob/mybob";
     }
 }

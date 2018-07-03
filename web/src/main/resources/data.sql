@@ -22,10 +22,10 @@ values(null, '루안', 508479, 1110982, 2, 'system', now(), 'system', now());
 
 -- menu(메뉴명)
 insert  into BOB_MENU(menu_id, menu_name, menu_price, shop_id, reg_id, reg_date, upd_id, upd_date)
-values (null, '카페라떼', 0, 1, 'system', now(), 'system', now());
+values (null, '카페라떼', 4200, 1, 'system', now(), 'system', now());
 
 insert  into BOB_MENU(menu_id, menu_name, menu_price, shop_id, reg_id, reg_date, upd_id, upd_date)
-values (null, '카푸치노', 0, 1, 'system', now(), 'system', now());
+values (null, '카푸치노', 4100, 1, 'system', now(), 'system', now());
 
 insert  into BOB_MENU(menu_id, menu_name, menu_price, shop_id, reg_id, reg_date, upd_id, upd_date)
 values (null, '우렁된장', 7500, 2, 'system', now(), 'system', now());

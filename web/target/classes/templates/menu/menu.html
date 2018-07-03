@@ -27,6 +27,7 @@
     <!-- 본문 -->
     <div class="container-fluid">
         <div class="row">
+            <!-- 네비 -->
             <nav class="col-md-2 d-none d-md-block bg-light sidebar">
                 <div class="sidebar-sticky">
                     <ul class="nav flex-column">
@@ -179,26 +180,36 @@
                             </div>
                         </div>
                     </div>
+                    <button type="submit" class="btn btn-outline-secondary">검색</button>
                 </div>
+
             </nav>
+
+            <!--리스트 -->
             <main role="main" class="col-md-10 ml-sm-auto col-lg-10 px-4">
-                <div class="container pt-3">
-                    <div class="row">
-                        <div class="col-md-4">
+                <div class="container pt-3" >
+                    <div th:each="menu1, row : ${menus1}" th:if="${row.index % 3} == 0" class="row">
+                        <div class="col-md-4" th:each="menu2: ${menus2}">
                             <div class="card mb-4 box-shadow">
                                 <img class="card-img-top" src="/web/bong.jpg">
                                 <div class="card-body">
-                                    <h5 class="card-title">봉된장</h5>
-                                    <p class="card-text">우렁 된장 7,500원</p>
-                                    <p class="card-text">바지락 된장 7,500원</p>
-                                    <p class="card-text">열무비빔면 7,000원</p>
+                                    <h5 th:text="${menu2.getMenuName()}" class="card-title" ></h5>
+                                    <p th:text="${menu2.getBobShop().getShopName()}" class="card-text" ></p>
+                                    <p th:text="${'$' + menu2.getMenuPrice().toString()}" class="card-text" ></p>
                                 </div>
                                 <div class="card-footer text-right">
-                                    <small class="text-muted">#한식 #깔끔함 #된장찌개맛집</small>
+                                    <small th:each="tag : ${menu2.getBobTags()}" th:text="${'#' + tag.getContent()}" class="text-muted"></small>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <!--
+                    <td><a th:href="@{'/boards/' + ${board.id}(page=${pager.thisPage}, searchStr=${pager.searchStr},searchType=${pager.searchType})}" th:text="${board.title}"></a> </td>
+                    <td th:text="${board.user.name}"></td>
+                    <td th:text="${board.readCount}"></td>
+                    <td th:text="${#temporals.format(board.regdate, 'yyyy/MM/dd HH:mm')}"></td>
+                    -->
                 </div>
             </main>
         </div>
